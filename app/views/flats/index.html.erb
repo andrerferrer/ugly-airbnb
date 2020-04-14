@@ -1,0 +1,14 @@
+
+<ul>
+	<% @flats.each do |flat| %>
+    	<li>
+    		<p>
+    			<%= flat['name'] %> - <%= flat['price'] %> <%= flat['priceCurrency'] %>
+    		</p>
+    		<img src="<%= flat['imageUrl']%>" style="width: 400px;" alt="">		
+		</li>
+
+	<% end %>
+</ul>
+
+<!-- icecream syntax -->
