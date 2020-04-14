@@ -1,5 +1,4 @@
 
-
 class FlatsController < ApplicationController
 
 	def index
